@@ -7,7 +7,5 @@
   },
   "repository": "https://github.com/horiewonder/claude-plugins",
   "license": "MIT",
-  "keywords": ["agents", "skills", "review", "documentation", "testing"],
-  "agents": "./agents/",
-  "skills": "./skills/"
+  "keywords": ["agents", "skills", "review", "documentation", "testing"]
 }
