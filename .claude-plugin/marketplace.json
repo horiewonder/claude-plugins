@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-plugins",
+  "version": "1.0.0",
+  "description": "Claude Codeのためのエージェントとスキルのコレクション",
+  "owner": {
+    "name": "horiewonder",
+    "email": "horiewonder@users.noreply.github.com"
+  },
+  "plugins": [
+    {
+      "name": "claude-essentials",
+      "source": "./plugins/claude-essentials",
+      "description": "6つのエージェントとTwelve-Factor Reviewスキルを含むコレクション",
+      "category": "Development",
+      "tags": ["agents", "skills", "review", "documentation"]
+    }
+  ]
+}

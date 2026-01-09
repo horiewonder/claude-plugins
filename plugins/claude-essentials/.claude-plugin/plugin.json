@@ -1,0 +1,13 @@
+{
+  "name": "claude-essentials",
+  "version": "1.0.0",
+  "description": "Essential agents and skills for Claude Code",
+  "author": {
+    "name": "horiewonder"
+  },
+  "repository": "https://github.com/horiewonder/claude-plugins",
+  "license": "MIT",
+  "keywords": ["agents", "skills", "review", "documentation", "testing"],
+  "agents": "./agents/",
+  "skills": "./skills/"
+}
