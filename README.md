@@ -2,6 +2,38 @@
 
 Claude Code用の自作スキルを集めたMarketplaceです。
 
+## ⚡ クイックスタート
+
+### 1. Marketplaceスキルをインストール
+
+```bash
+# marketplaceスキルをダウンロード
+mkdir -p ~/.claude/commands
+curl -sL "https://raw.githubusercontent.com/horiewonder/claude-plugins/main/skills/utilities/marketplace.md" \
+  -o ~/.claude/commands/marketplace.md
+```
+
+### 2. スキルを追加
+
+Claude Code内で以下のコマンドを実行：
+
+```
+/marketplace add horiewonder/claude-plugins
+```
+
+これで、このリポジトリ内のスキルをインストールできます！
+
+### 使用例
+
+```
+/marketplace add horiewonder/claude-plugins   # スキルをインストール
+/marketplace list                              # インストール済みスキルを一覧
+/marketplace remove quick-commit               # スキルを削除
+/marketplace search test                       # スキルを検索
+```
+
+---
+
 ## 📁 ディレクトリ構成
 
 ```
